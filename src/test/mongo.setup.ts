@@ -1,20 +1,11 @@
-import { GenericContainer, StartedTestContainer } from 'testcontainers';
 import mongoose from 'mongoose';
-import { config as dotenvConfig } from 'dotenv';
-import { useTestEnv } from './useTestEnv';
+import { MongoMemoryServer } from 'mongodb-memory-server';
 
-let container: StartedTestContainer | null = null;
+let mongoServer: MongoMemoryServer;
 
 export const startMongoContainer = async (): Promise<void> => {
-  dotenvConfig({ path: `.env.test` });
-  const { MONGO_PORT, MONGO_IMAGE, MONGO_DB } = useTestEnv();
-  container = await new GenericContainer(MONGO_IMAGE)
-    .withExposedPorts(MONGO_PORT)
-    .start();
-
-  const host = container.getHost();
-  const port = container.getMappedPort(MONGO_PORT);
-  const mongoUri = `mongodb://${host}:${port}/${MONGO_DB}`;
+  mongoServer = await MongoMemoryServer.create();
+  const mongoUri = mongoServer.getUri();
 
   await mongoose.connect(mongoUri);
 };
@@ -24,8 +15,8 @@ export const stopMongoContainer = async (): Promise<void> => {
     await mongoose.disconnect();
   }
 
-  if (container) {
-    await container.stop();
+  if (mongoServer) {
+    await mongoServer.stop();
   }
 };
 

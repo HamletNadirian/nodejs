@@ -27,7 +27,6 @@ export default (dtoClass: new () => object): RequestHandler => {
       const messages = extractErrors(errors);
       return next(new ValidationException(messages));
     }
-
     next();
   };
 };

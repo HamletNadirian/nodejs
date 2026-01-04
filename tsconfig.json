@@ -1,12 +1,28 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "ES2022",
     "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "moduleResolution": "node",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
+    "noEmitOnError": true,
     "skipLibCheck": true,
-    "outDir": "dist"
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "declaration": false,
+    "incremental": false
   },
-  "include": ["src"]
+  "exclude": [
+    "**/*.test.ts",
+    "node_modules",
+  ],
+  "include": [
+    "src/**/*.ts",
+  ]
 }
