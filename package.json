@@ -14,7 +14,6 @@
     "seed": "tsx src/seed/seedRunner.ts",
     "seed:dev": "npm run build && node build/seed/seedRunner.js",
     "start:with-seed-test": "npm run build && npm test && npm run seed && npm start",
-    "dev:with-seed": "npm run seed && npm run dev",
     "reset-db": "npm run seed:dev",
     "start-and-seed": "node build/index.js & tsx src/seed/seedRunner.ts"
   },
