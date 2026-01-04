@@ -19,9 +19,6 @@ async function bootstrap(): Promise<void> {
     server.listen(PORT, HOST, async () => {
         log4js
             .getLogger()
-            .info(`🚀 Movie Rating System listening on port: http://${HOST}:${PORT}`);
-        log4js
-            .getLogger()
             .info(`📚 Swagger UI available at: http://${HOST}:${PORT}/api-docs`);
     });
 

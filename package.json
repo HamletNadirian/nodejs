@@ -13,10 +13,10 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "seed": "tsx src/seed/seedRunner.ts",
     "seed:dev": "npm run build && node build/seed/seedRunner.js",
-    "start:with-seed": "npm run seed:dev && npm start",
+    "start:with-seed-test": "npm test && npm run seed && npm start",
     "dev:with-seed": "npm run seed && npm run dev",
     "reset-db": "npm run seed:dev",
-    "start-and-test": "start npm start & npm test"
+    "start-and-seed": "node build/index.js & tsx src/seed/seedRunner.ts"
   },
   "dependencies": {
     "class-transformer": "0.5.1",
