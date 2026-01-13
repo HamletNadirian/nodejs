@@ -28,6 +28,12 @@ export default [
     },
   },
   {
+    "env": {
+      "node": true,
+      "es2021": true
+    }
+  },
+  {
     files: ['**/*.test.ts', '**/*.spec.ts'],
     plugins: {
       jest,
