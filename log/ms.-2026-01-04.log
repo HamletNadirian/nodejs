@@ -1,0 +1,145 @@
+[2026-01-04T00:47:50.282] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T00:47:50.285] [INFO] default - Attempting to connect...
+[2026-01-04T00:47:50.306] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T00:47:50.307] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T00:47:50.326] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T00:47:52.277] [WARN] default - ::1 - - "GET /api-docs/ HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T00:47:52.317] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T00:47:52.326] [WARN] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T00:47:52.336] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T00:47:52.344] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T00:47:59.830] [INFO] default - ::1 - - "GET /api/movies HTTP/1.1" 200 2926 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:10.500] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:37:10.503] [INFO] default - Attempting to connect...
+[2026-01-04T13:37:10.523] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:37:10.523] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:37:10.536] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:37:15.089] [INFO] default - ::1 - - "GET /api-docs/ HTTP/1.1" 200 3088 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:15.197] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:15.200] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:15.201] [WARN] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:15.203] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:37:15.610] [WARN] default - ::1 - - "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:38:02.629] [WARN] default - ::1 - - "GET /api/movies HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T13:38:27.702] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:38:27.706] [INFO] default - Attempting to connect...
+[2026-01-04T13:38:27.725] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:38:27.725] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:38:27.737] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:40:59.764] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:40:59.771] [INFO] default - Attempting to connect...
+[2026-01-04T13:40:59.814] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:40:59.819] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:40:59.865] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:43:57.429] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:43:57.438] [INFO] default - Attempting to connect...
+[2026-01-04T13:43:57.495] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:43:57.499] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:43:57.530] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:44:29.430] [WARN] default - ::1 - - "GET /api-docs HTTP/1.1" 301 158 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:44:29.442] [INFO] default - ::1 - - "GET /api-docs/ HTTP/1.1" 200 3088 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:44:29.467] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 29272 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:44:29.475] [INFO] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 200 177183 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:44:29.482] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:44:29.502] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1510271 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T13:48:59.601] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:48:59.604] [INFO] default - Attempting to connect...
+[2026-01-04T13:48:59.625] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:48:59.625] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:48:59.643] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:50:08.819] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T13:50:08.821] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:50:08.822] [INFO] default - Attempting to connect...
+[2026-01-04T13:50:08.854] [WARN] default - Database connection lost
+[2026-01-04T13:50:08.855] [ERROR] default - ✖ Error during connection: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2026-01-04T13:50:08.868] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:50:08.869] [INFO] default - ✅ Connected to database
+[2026-01-04T13:50:08.870] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T13:50:08.903] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T13:50:08.944] [INFO] default - ✅ Created 5 producers
+[2026-01-04T13:50:08.971] [INFO] default - ✅ Created 7 movies
+[2026-01-04T13:50:09.045] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T13:50:11.329] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:50:11.333] [INFO] default - Attempting to connect...
+[2026-01-04T13:50:11.361] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:50:11.361] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:50:11.383] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:56:42.862] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T13:56:42.904] [INFO] default - ✅ MongoDB connected
+[2026-01-04T13:56:42.905] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T13:56:42.930] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T13:56:42.962] [INFO] default - ✅ Created 5 producers
+[2026-01-04T13:56:42.976] [INFO] default - ✅ Created 7 movies
+[2026-01-04T13:56:42.992] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T13:56:44.896] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:56:44.899] [INFO] default - Attempting to connect...
+[2026-01-04T13:56:44.919] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:56:44.919] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:56:44.939] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:57:28.655] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T13:57:28.696] [INFO] default - ✅ MongoDB connected
+[2026-01-04T13:57:28.697] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T13:57:28.723] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T13:57:28.755] [INFO] default - ✅ Created 5 producers
+[2026-01-04T13:57:28.770] [INFO] default - ✅ Created 7 movies
+[2026-01-04T13:57:28.787] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T13:57:30.629] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T13:57:30.633] [INFO] default - Attempting to connect...
+[2026-01-04T13:57:30.653] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T13:57:30.653] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T13:57:30.667] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:42:04.168] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T17:42:04.214] [INFO] default - ✅ MongoDB connected
+[2026-01-04T17:42:04.215] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T17:42:04.246] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T17:42:04.283] [INFO] default - ✅ Created 5 producers
+[2026-01-04T17:42:04.298] [INFO] default - ✅ Created 7 movies
+[2026-01-04T17:42:04.316] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T17:42:06.568] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:42:06.571] [INFO] default - Attempting to connect...
+[2026-01-04T17:42:06.596] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T17:42:06.597] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T17:42:06.617] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:42:52.134] [WARN] default - ::1 - - "GET /api-docs/ HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:42:52.175] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:42:52.185] [INFO] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 200 177183 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:42:52.192] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:42:52.208] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1510271 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:43:54.889] [ERROR] default - ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:45:02.738] [ERROR] default - ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2026-01-04T17:45:48.202] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T17:45:48.244] [INFO] default - ✅ MongoDB connected
+[2026-01-04T17:45:48.245] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T17:45:48.274] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T17:45:48.300] [INFO] default - ✅ Created 5 producers
+[2026-01-04T17:45:48.313] [INFO] default - ✅ Created 7 movies
+[2026-01-04T17:45:48.328] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T17:45:50.056] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:45:50.059] [INFO] default - Attempting to connect...
+[2026-01-04T17:45:50.080] [INFO] default - 🚀 Movie Rating System listening on port: http://localhost:7777
+[2026-01-04T17:45:50.081] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T17:45:50.093] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:47:10.058] [INFO] default - 🚀 Starting seed process...
+[2026-01-04T17:47:10.101] [INFO] default - ✅ MongoDB connected
+[2026-01-04T17:47:10.102] [INFO] default - 🌱 Starting database seeding...
+[2026-01-04T17:47:10.138] [INFO] default - 🗑️  Collections cleared
+[2026-01-04T17:47:10.170] [INFO] default - ✅ Created 5 producers
+[2026-01-04T17:47:10.188] [INFO] default - ✅ Created 7 movies
+[2026-01-04T17:47:10.205] [INFO] default - ✅ Created 14 ratings
+[2026-01-04T17:47:12.431] [INFO] default - Attempting to connect to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T17:47:12.434] [INFO] default - Attempting to connect...
+[2026-01-04T17:47:12.459] [INFO] default - 📚 Swagger UI available at: http://localhost:7777/api-docs
+[2026-01-04T17:47:12.475] [INFO] default - ✔ Successfully connected to database: mongodb://localhost:27017/movie_rating_db
+[2026-01-04T18:03:59.922] [INFO] default - ::1 - - "GET /api/movies/ HTTP/1.1" 200 2926 "http://localhost:63343/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2026-01-04T18:04:00.441] [WARN] default - ::1 - - "GET /api/movies/ HTTP/1.1" 304 - "http://localhost:63343/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2026-01-04T18:04:04.107] [ERROR] default - ::1 - - "PATCH /api/movies/ HTTP/1.1" 404 152 "http://localhost:63343/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2026-01-04T18:10:18.585] [WARN] default - ::1 - - "GET /api-docs/ HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:10:18.593] [INFO] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 200 177183 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:10:18.615] [ERROR] default - ::1 - - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:10:18.739] [INFO] default - ::1 - - "GET /api-docs/swagger-ui.css.map HTTP/1.1" 200 277678 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:24.387] [INFO] default - ::1 - - "GET /api/movies HTTP/1.1" 200 2926 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:46.920] [WARN] default - ::1 - - "GET /api-docs/ HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:46.941] [WARN] default - ::1 - - "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:46.950] [WARN] default - ::1 - - "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:46.955] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+[2026-01-04T18:27:46.979] [INFO] default - ::1 - - "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1510271 "http://localhost:7777/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
